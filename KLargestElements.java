@@ -1,5 +1,5 @@
 import java.util.Arrays;
-import java.util.Collections;
+
 import java.util.PriorityQueue;
 
 public class KLargestElements {
@@ -14,7 +14,7 @@ public class KLargestElements {
     public static int[] kLargestEmement(int[] arr , int k){
         int[] ans = new int[k];
         
-        //max heap
+        
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
 
         //add first k elements in minHeap

@@ -5,6 +5,9 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 public class KPlaceApart {
+    /**
+     * @param args
+     */
     public static void main(String[] args){
         int[] arr = {1,40,2,3};
         int k=2;
