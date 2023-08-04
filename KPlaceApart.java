@@ -12,9 +12,9 @@ public class KPlaceApart {
         int[] arr = {1,40,2,3};
         int k=2;
 
-        System.out.println(Arrays.toString(KPlaceApart(arr,k)));
+        System.out.println(Arrays.toString(KplaceApart(arr,k)));
     }
-    public static int[] KPlaceApart(int[] A, int B){
+    public static int[] KplaceApart(int[] A, int B){
         List<Integer> ans = new ArrayList<>();
         PriorityQueue<Integer> minQ= new PriorityQueue<>();
         
